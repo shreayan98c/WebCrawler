@@ -1,0 +1,389 @@
+DEBUG:visited:https://www.cs.jhu.edu/~yarowsky/cs466.html
+DEBUG:visited:http://www.cs.jhu.edu/~yarowsky/601.466.hw4.zip
+DEBUG:extracted:('http://www.cs.jhu.edu/~yarowsky/601.466.hw4.zip', 'EMAIL', 'x18@v.xb')
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 65
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 11
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 71
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 11
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 11
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 49
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 11
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.04298077483177141, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.04301084363647586, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.044525579407025596, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04460385017276269, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.04231850161689166, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04238209537419952, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.043305135180157196, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.043080638663714706, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.0448087628385216, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.04182539146347338, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.043052735275367, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04486482427824893, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.07432357683400843
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07551585574029067
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.04298077483177141
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.04301084363647586
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.044525579407025596
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04460385017276269
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.04231850161689166
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04238209537419952
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.07432357683400843
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07551585574029067
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgarian confidence = 0.043305135180157196
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.043080638663714706
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.0448087628385216
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.04182539146347338
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.043052735275367
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04486482427824893
+DEBUG:chardet.universaldetector:ISO-8859-1  confidence = 0.01
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 65
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 11
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 71
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 11
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 11
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 49
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 11
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.04298077483177141, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.04301084363647586, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.044525579407025596, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04460385017276269, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.04231850161689166, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04238209537419952, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.043305135180157196, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.043080638663714706, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.0448087628385216, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-9 confidence = 0.04182539146347338, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.043052735275367, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04486482427824893, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.07432357683400843
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07551585574029067
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 not active
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.04298077483177141
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.04301084363647586
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.044525579407025596
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04460385017276269
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.04231850161689166
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04238209537419952
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.07432357683400843
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07551585574029067
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgarian confidence = 0.043305135180157196
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.043080638663714706
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.0448087628385216
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.04182539146347338
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.043052735275367
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04486482427824893
+DEBUG:chardet.universaldetector:ISO-8859-1  confidence = 0.01
+WARNING:bs4.dammit:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+DEBUG:visited:http://www.cs.jhu.edu/~yarowsky/cs466.pdf
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 86
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 83
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 84
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 83
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 83
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 83
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 83
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.0448831154649727, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.040589398513711815, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04232963729145598, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04353912070086997, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.04117039165155292, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04327214832900969, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04210055570719329, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.04355654402924808, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.043279965531905266, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04400719758212337, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.042699291360277045, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.06973589646012457
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07133889164484625
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.05990660682542296
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.0448831154649727
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.040589398513711815
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04232963729145598
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04353912070086997
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.04117039165155292
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04327214832900969
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.06973589646012457
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07133889164484625
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgarian confidence = 0.04210055570719329
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.04355654402924808
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.043279965531905266
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.05990660682542296
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04400719758212337
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.042699291360277045
+DEBUG:chardet.universaldetector:ISO-8859-1  confidence = 0.01
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 86
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 83
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 84
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 83
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 83
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 83
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 83
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.0448831154649727, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.040589398513711815, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04232963729145598, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.04353912070086997, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.04117039165155292, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04327214832900969, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04210055570719329, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.04355654402924808, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.043279965531905266, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04400719758212337, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.042699291360277045, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.06973589646012457
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07133889164484625
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.05990660682542296
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.0448831154649727
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.040589398513711815
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04232963729145598
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.04353912070086997
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.04117039165155292
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04327214832900969
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.06973589646012457
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07133889164484625
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgarian confidence = 0.04210055570719329
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.04355654402924808
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.043279965531905266
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.05990660682542296
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04400719758212337
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.042699291360277045
+DEBUG:chardet.universaldetector:ISO-8859-1  confidence = 0.01
+WARNING:bs4.dammit:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
+DEBUG:visited:https://www.cs.jhu.edu/~yarowsky/
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/', 'EMAIL', 'yarowsky@jhu.edu')
+DEBUG:extracted:('https://www.cs.jhu.edu/~yarowsky/', 'ADDRESS', 'Baltimore, MD 21218')
+DEBUG:visited:http://www.cs.jhu.edu
+DEBUG:extracted:('http://www.cs.jhu.edu', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:visited:http://www.cs.jhu.edu#alert
+DEBUG:extracted:('http://www.cs.jhu.edu#alert', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu#alert', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:visited:http://www.cs.jhu.edu#menu
+DEBUG:extracted:('http://www.cs.jhu.edu#menu', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu#menu', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:visited:http://www.cs.jhu.edu#menu
+DEBUG:extracted:('http://www.cs.jhu.edu#menu', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu#menu', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:visited:http://www.cs.jhu.edu#skip_content
+DEBUG:extracted:('http://www.cs.jhu.edu#skip_content', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu#skip_content', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:visited:http://www.cs.jhu.edu#skip_content
+DEBUG:extracted:('http://www.cs.jhu.edu#skip_content', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu#skip_content', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:visited:http://www.cs.jhu.edu#skip_content
+DEBUG:extracted:('http://www.cs.jhu.edu#skip_content', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu#skip_content', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:visited:http://www.cs.jhu.edu#skip_content
+DEBUG:extracted:('http://www.cs.jhu.edu#skip_content', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu#skip_content', 'EMAIL', 'contactus@cs.jhu.edu')
+DEBUG:visited:http://www.cs.jhu.edu/~yarowsky/cs415.html
+DEBUG:visited:http://www.cs.jhu.edu/~yarowsky/
+DEBUG:extracted:('http://www.cs.jhu.edu/~yarowsky/', 'EMAIL', 'yarowsky@jhu.edu')
+DEBUG:extracted:('http://www.cs.jhu.edu/~yarowsky/', 'ADDRESS', 'Baltimore, MD 21218')
+DEBUG:visited:http://www.cs.jhu.edu/~yarowsky/2020exam-415615-5d-corrected.pdf
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 172
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 146
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 178
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 146
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 178
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 146
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 146
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.04364547513040986, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.04395197991864361, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04026904864898144, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.043662343016374026, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.04054845012087388, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04153034275957334, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.03904040025140731, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.04245072518594191, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04443437619131126, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04342660593033631, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04385599259571491, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.07065483554012962
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07184811640644657
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.050047971342548535
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.04364547513040986
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.04395197991864361
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04026904864898144
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.043662343016374026
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.04054845012087388
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04153034275957334
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.07065483554012962
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07184811640644657
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgarian confidence = 0.03904040025140731
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.04245072518594191
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04443437619131126
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.050047971342548535
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04342660593033631
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04385599259571491
+DEBUG:chardet.universaldetector:ISO-8859-1  confidence = 0.01
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese prober hit error at byte 172
+DEBUG:chardet.charsetprober:EUC-JP Japanese prober hit error at byte 146
+DEBUG:chardet.charsetprober:GB2312 Chinese prober hit error at byte 178
+DEBUG:chardet.charsetprober:EUC-KR Korean prober hit error at byte 146
+DEBUG:chardet.charsetprober:CP949 Korean prober hit error at byte 178
+DEBUG:chardet.charsetprober:Big5 Chinese prober hit error at byte 146
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 146
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.04364547513040986, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:KOI8-R confidence = 0.04395197991864361, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.04026904864898144, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:MacCyrillic confidence = 0.043662343016374026, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM866 confidence = 0.04054845012087388, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:IBM855 confidence = 0.04153034275957334, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:ISO-8859-5 confidence = 0.03904040025140731, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 confidence = 0.04245072518594191, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:TIS-620 confidence = 0.04443437619131126, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04342660593033631, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1255 confidence = 0.04385599259571491, below negative shortcut threshhold 0.05
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:KOI8-R not active
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:MacCyrillic not active
+DEBUG:chardet.charsetprober:IBM866 not active
+DEBUG:chardet.charsetprober:IBM855 not active
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.07065483554012962
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.07184811640644657
+DEBUG:chardet.charsetprober:ISO-8859-5 not active
+DEBUG:chardet.charsetprober:windows-1251 not active
+DEBUG:chardet.charsetprober:TIS-620 not active
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.050047971342548535
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.charsetprober:windows-1255 not active
+DEBUG:chardet.universaldetector:no probers hit minimum threshold
+DEBUG:chardet.universaldetector:utf-8  confidence = 0.010000000000000009
+DEBUG:chardet.universaldetector:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.universaldetector:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.universaldetector:CP949 Korean confidence = 0.01
+DEBUG:chardet.universaldetector:Big5 Chinese confidence = 0.01
+DEBUG:chardet.universaldetector:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.universaldetector:windows-1251 Russian confidence = 0.04364547513040986
+DEBUG:chardet.universaldetector:KOI8-R Russian confidence = 0.04395197991864361
+DEBUG:chardet.universaldetector:ISO-8859-5 Russian confidence = 0.04026904864898144
+DEBUG:chardet.universaldetector:MacCyrillic Russian confidence = 0.043662343016374026
+DEBUG:chardet.universaldetector:IBM866 Russian confidence = 0.04054845012087388
+DEBUG:chardet.universaldetector:IBM855 Russian confidence = 0.04153034275957334
+DEBUG:chardet.universaldetector:ISO-8859-7 Greek confidence = 0.07065483554012962
+DEBUG:chardet.universaldetector:windows-1253 Greek confidence = 0.07184811640644657
+DEBUG:chardet.universaldetector:ISO-8859-5 Bulgarian confidence = 0.03904040025140731
+DEBUG:chardet.universaldetector:windows-1251 Bulgarian confidence = 0.04245072518594191
+DEBUG:chardet.universaldetector:TIS-620 Thai confidence = 0.04443437619131126
+DEBUG:chardet.universaldetector:ISO-8859-9 Turkish confidence = 0.050047971342548535
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04342660593033631
+DEBUG:chardet.universaldetector:windows-1255 Hebrew confidence = 0.04385599259571491
+DEBUG:chardet.universaldetector:ISO-8859-1  confidence = 0.01
+WARNING:bs4.dammit:Some characters could not be decoded, and were replaced with REPLACEMENT CHARACTER.
