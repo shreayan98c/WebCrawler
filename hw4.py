@@ -2,7 +2,7 @@ import logging
 import re
 import sys
 from bs4 import BeautifulSoup
-from queue import Queue, PriorityQueue
+from queue import PriorityQueue
 from urllib import parse, request
 
 logging.basicConfig(level=logging.DEBUG, filename='output.log', filemode='w')
@@ -18,22 +18,21 @@ def parse_links(root, html):
             text = link.string
             if not text:
                 text = ''
-            text = re.sub('\s+', ' ', text).strip()
-            yield (parse.urljoin(root, link.get('href')), text)
+            text = re.sub(r'\s+', ' ', text).strip()
+            yield parse.urljoin(root, link.get('href')), text
 
 
-def relevance_func(link, key_w):
-    if len(key_w) == 0:
+def relevance_func(link, keywords):
+    if len(keywords) == 0:
         return 0
-    for w in key_w:
+    for w in keywords:
         if w in link:
             return 0
     else:
         return 1
 
 
-def parse_links_sorted(root, html, key_w):
-    # TODO: implement
+def parse_links_sorted(root, html, keywords):
     soup = BeautifulSoup(html, 'html.parser')
     for link in soup.find_all('a'):
         href = link.get('href')
@@ -41,9 +40,9 @@ def parse_links_sorted(root, html, key_w):
             text = link.string
             if not text:
                 text = ''
-            text = re.sub('\s+', ' ', text).strip()
+            text = re.sub(r'\s+', ' ', text).strip()
             url = parse.urljoin(root, link.get('href'))
-            yield ((relevance_func(url, key_w), url), text)
+            yield (relevance_func(url, keywords), url), text
 
 
 def get_links(url):
@@ -52,11 +51,11 @@ def get_links(url):
 
 
 def get_nonlocal_links(url):
-    '''Get a list of links on the page specificed by the url,
+    """
+    Get a list of links on the page specified by the url,
     but only keep non-local links and non self-references.
-    Return a list of (link, title) pairs, just like get_links()'''
-
-    # TODO: implement
+    Return a list of (link, title) pairs, just like get_links()
+    """
     links = get_links(url)
     filtered = []
     for link in links:
@@ -65,18 +64,20 @@ def get_nonlocal_links(url):
     return filtered
 
 
-def crawl(root, wanted_content=[], within_domain=True, num_link=10, key_w=[]):
-    '''Crawl the url specified by `root`.
+def crawl(root, wanted_content=None, within_domain=True, num_link=10, keywords=None):
+    """
+    Crawl the url specified by `root`.
     `wanted_content` is a list of content types to crawl
     `within_domain` specifies whether the crawler should limit itself to the domain of `root`
-    '''
-    # TODO: implement
-
+    """
     queue = PriorityQueue()
-    queue.put((relevance_func(root, key_w), root))
+    queue.put((relevance_func(root, keywords), root))
 
     visited = set()
     extracted = []
+
+    wanted_content = [] if wanted_content is None else wanted_content
+    keywords = [] if keywords is None else keywords
 
     while not queue.empty():
         if len(visited) > num_link:
@@ -88,7 +89,7 @@ def crawl(root, wanted_content=[], within_domain=True, num_link=10, key_w=[]):
             content = req.headers['Content-Type'].lower()
             if wanted_content and (content not in wanted_content):
                 continue
-            html = req.read()
+            html = req.read().decode('utf-8')
 
             visited.add(url)
             visitlog.debug(url)
@@ -97,7 +98,7 @@ def crawl(root, wanted_content=[], within_domain=True, num_link=10, key_w=[]):
                 extracted.append(ex)
                 extractlog.debug(ex)
 
-            for (rank, link), title in parse_links_sorted(url, html, key_w):
+            for (rank, link), title in parse_links_sorted(url, html, keywords):
                 if (link in visited) or (parse.urlparse(link) == parse.urlparse(root)) or (
                         within_domain and parse.urlparse(link).hostname != parse.urlparse(url).hostname):
                     continue
@@ -110,15 +111,15 @@ def crawl(root, wanted_content=[], within_domain=True, num_link=10, key_w=[]):
 
 
 def extract_information(address, html):
-    '''Extract contact information from html, returning a list of (url, category, content) pairs,
-    where category is one of PHONE, ADDRESS, EMAIL'''
-
-    # TODO: implement
+    """
+    Extract contact information from html, returning a list of (url, category, content) pairs,
+    where category is one of PHONE, ADDRESS, EMAIL
+    """
     results = []
-    for match in re.findall('\d\d\d-\d\d\d-\d\d\d\d', str(html)):
+    for match in re.findall(r'\d\d\d-\d\d\d-\d\d\d\d', str(html)):
         results.append((address, 'PHONE', match))
 
-    for match in re.findall(r"([a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+)", str(html)):
+    for match in re.findall(r'([a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9.-]+)', str(html)):
         results.append((address, 'EMAIL', match))
 
     for match in re.findall(r'([A-Z]([a-z])+(\.?)(\x20[A-Z]([a-z])+){0,2},\s[A-Za-z]+\.{0,1}\s(?!0{5})\d{5})',
@@ -135,6 +136,8 @@ def writelines(filename, data):
 
 def main():
     site = sys.argv[1]
+    num_l = 1000
+    keywords = ['book', 'homework', 'hw', 'assignment']
 
     links = get_links(site)
     writelines('links.txt', links)
@@ -142,7 +145,7 @@ def main():
     nonlocal_links = get_nonlocal_links(site)
     writelines('nonlocal.txt', nonlocal_links)
 
-    visited, extracted = crawl(site)
+    visited, extracted = crawl(site, wanted_content=[], within_domain=True, num_link=num_l, keywords=keywords)
     writelines('visited.txt', visited)
     writelines('extracted.txt', extracted)
 
